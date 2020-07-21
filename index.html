@@ -1,0 +1,38 @@
+<html>
+<head>
+  <meta charset="UTF-8">
+  <script language="javascript" type="text/javascript" src="https://cdn.jsdelivr.net/npm/p5@1.0.0/lib/p5.min.js"></script>
+  
+  <script type="text/javascript" src="https://www.gstatic.com/firebasejs/3.6.3/firebase.js"></script>
+  <script language="javascript" type="text/javascript" src="sketch.js"></script>
+
+  <script src="https://www.gstatic.com/firebasejs/7.16.1/firebase-app.js"></script>
+<script src="https://www.gstatic.com/firebasejs/7.16.1/firebase-database.js"></script>
+
+<script src="https://www.gstatic.com/firebasejs/7.16.1/firebase-analytics.js"></script>
+
+<script>
+  // Your web app's Firebase configuration
+  var firebaseConfig = {
+    apiKey: "AIzaSyD87_mQnNicSSWtrlwJ4U33PiUMHAnTMaw",
+    authDomain: "paint-app-73bce.firebaseapp.com",
+    databaseURL: "https://paint-app-73bce.firebaseio.com",
+    projectId: "paint-app-73bce",
+    storageBucket: "paint-app-73bce.appspot.com",
+    messagingSenderId: "1092701433362",
+    appId: "1:1092701433362:web:5fbb44b956bf183cd772cb",
+    measurementId: "G-2TNTB459VR"
+  };
+  // Initialize Firebase
+  firebase.initializeApp(firebaseConfig);
+  firebase.analytics();
+</script>
+</head>
+
+<body>
+  <p>
+    <button id="clearButton">CLEAR</button>
+  </p>
+
+</body>
+</html>
